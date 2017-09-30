@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: $background;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: $font-size;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+html {
+  touch-action: manipulation;
+  overflow: hidden;
+}

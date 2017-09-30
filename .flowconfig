@@ -1,0 +1,12 @@
+[ignore]
+.*/node_modules/react-redux/.*
+.*/node_modules/hammerjs/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='^.*\.css$' -> 'css-module-flow'
